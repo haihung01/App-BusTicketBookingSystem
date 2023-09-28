@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import WellCome from './components/page-wellcome/WellCome';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>hung dz khoai to dit bu!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <WellCome />
+    </>
   );
 }
 
